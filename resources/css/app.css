@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+.quicksand {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.preloader {
+    opacity: 1;
+    pointer-events: all;
+    transition: 0.3s ease;
+}
+.preloader.hide {
+    opacity: 0;
+    pointer-events: none;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+background: #888;
+border-radius: 100px;
+}
+::-webkit-scrollbar-thumb:hover {
+background: rgb(76, 29, 149);
+}
+
+::selection {
+    background: rgba(76, 29, 149, 40%);
+}
+
+input:checked + svg {
+    display: block;
+}
+
+input.auth:-webkit-autofill,
+input.auth:-webkit-autofill:hover, 
+input.auth:-webkit-autofill:focus, 
+input.auth:-webkit-autofill:active
+{
+ -webkit-box-shadow: 0 0 0 30px #ffffff inset !important;
+}
+input.auth:-webkit-autofill
+{
+ -webkit-text-fill-color: rgb(17, 24, 39) !important;
+}

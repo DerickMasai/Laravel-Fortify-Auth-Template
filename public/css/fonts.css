@@ -1,0 +1,57 @@
+@font-face {
+  font-family: GellixThin;
+  src: url("../fonts/Gellix/Thin.ttf");
+}
+@font-face {
+  font-family: GellixLight;
+  src: url("../fonts/Gellix/Light.ttf");
+}
+@font-face {
+  font-family: GellixRegular;
+  src: url("../fonts/Gellix/Regular.ttf");
+}
+@font-face {
+  font-family: GellixMedium;
+  src: url("../fonts/Gellix/Medium.ttf");
+}
+@font-face {
+  font-family: GellixSemiBold;
+  src: url("../fonts/Gellix/SemiBold.ttf");
+}
+@font-face {
+  font-family: GellixBold;
+  src: url("../fonts/Gellix/Bold.ttf");
+}
+@font-face {
+  font-family: GellixExtraBold;
+  src: url("../fonts/Gellix/ExtraBold.ttf");
+}
+@font-face {
+  font-family: GellixBlack;
+  src: url("../fonts/Gellix/Black.ttf");
+}
+
+.glx100 {
+  font-family: "GellixThin", Helvetica, Arial, sans-serif;
+}
+.glx300 {
+  font-family: "GellixLight", Helvetica, Arial, sans-serif;
+}
+.glx400 {
+  font-family: "GellixRegular", Helvetica, Arial, sans-serif;
+}
+.glx500 {
+  font-family: "GellixMedium", Helvetica, Arial, sans-serif;
+}
+.glx600 {
+  font-family: "GellixSemiBold", Helvetica, Arial, sans-serif;
+}
+.glx700 {
+  font-family: "GellixBold", Helvetica, Arial, sans-serif;
+}
+.glx800 {
+  font-family: "GellixExtraBold", Helvetica, Arial, sans-serif;
+}
+.glx900 {
+  font-family: "GellixBlack", Helvetica, Arial, sans-serif;
+}
