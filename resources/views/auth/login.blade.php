@@ -2,7 +2,11 @@
 
 @section('content')
     <main class="h-auto w-full flex flex-col">
-        <nav class="py-8 md:py-12 lg:py-4 px-12 flex justify-end">
+        <nav class="py-8 md:py-12 lg:py-4 px-12 flex  justify-between items-center">
+            <a href="{{ route('register') }}" class="glx800 text-purple-800 text-xl flex flex-row items-center space-x-2">
+                <i class="fas fa-pen transform scale-75 mt-0.5"></i>
+                <span>{{ env('APP_NAME') }}</span>
+            </a>
             <a href="{{ route('register') }}" class="py-2 px-6 border border-b-4 border-solid border-purple-500 rounded-md shadow-md quicksand font-bold text-purple-800 flex flex-row items-center space-x-2 transition ease-in-out duration-200 hover:border-purple-900 hover:text-purple-700" >
                 <span>Join {{ env('APP_NAME') }}</span>
                 <i class="fas fa-arrow-right transform scale-90 mt-0.5"></i>

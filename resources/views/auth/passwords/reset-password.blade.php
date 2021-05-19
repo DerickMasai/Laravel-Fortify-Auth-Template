@@ -2,7 +2,7 @@
 
 @section('content')
     <main class="h-auto w-full flex flex-col">
-        <nav class="py-8 md:py-12 lg:py-4 px-12 flex justify-start">
+        <nav class="py-8 md:py-12 lg:py-4 px-12 flex justify-start items-center">
             <a href="{{ route('register') }}" class="glx800 text-purple-800 text-xl flex flex-row items-center space-x-2">
                 <i class="fas fa-pen transform scale-75 mt-0.5"></i>
                 <span>{{ env('APP_NAME') }}</span>
