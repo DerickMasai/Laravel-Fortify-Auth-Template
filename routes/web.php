@@ -20,4 +20,3 @@ Route::get('/', function () {
 // Legal
 Route::view('/terms', 'legal.terms')->name('legal-terms');
 Route::view('/privacy-policy', 'legal.privacy')->name('legal-privacy');
-Route::view('/resete', 'auth.passwords.reset-password');
